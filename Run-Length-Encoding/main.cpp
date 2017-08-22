@@ -45,7 +45,7 @@ namespace rne
 	}
 
 	// Encodes the specified input string by printing the number of characters in a sequence and the character for each sequence.
-	// Numbers that exceed two digits are surrounded by one special character (#) on each side.
+	// Numbers that exceed two digits are surrounded by one special character (#) on each side. Zero as a character count is not allowed.
 	std::string encode(const std::string &input)
 	{
 		std::string result;
